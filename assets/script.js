@@ -4,7 +4,6 @@ let bookHtml = '';
 if (JSON.parse(localStorage.getItem('books')) == null) {
   const bookObj = { allbook: booklist };
   localStorage.setItem('books', JSON.stringify(bookObj));
-  
 } else {
   booklist = JSON.parse(localStorage.getItem('books')).allbook;
 
