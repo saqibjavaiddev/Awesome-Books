@@ -3,14 +3,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   color: black;
   margin-top: 15px;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
+
 .book-table {
+  border: 3px solid black;
   padding: 5px 0;
-  width: 70%;
+  width: 80%;
 }
 
 form > *:last-child {
@@ -21,29 +27,48 @@ form > *:last-child {
   background: #e0dede;
 }
 
+.book-table button,
+.submitbtn {
+  border: 2px solid black;
+  box-shadow: 2px 2px;
+  padding: 2px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
 .book {
-  padding: 10px 10px;
+  padding: 0 10px;
   display: flex;
   justify-content: space-between;
   gap: 90px;
   margin-bottom: 2px;
 }
 
-input[type=text] {
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+.book-info {
+  width: 25%;
 }
 
-input[type=submit] {
-  background-color: #4caf50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.remove-btn {
+  width: 17%;
+}
+
+.separator {
+  border: 1px solid black;
+  margin: 40px auto;
+  width: 20%;
+}
+
+.formSection {
+  display: block;
+  text-align: center;
+}
+
+.formSection .bookname,
+.authorname {
+  border: 2px solid black;
+  padding: 4px;
+}
+
+.submitbtn {
+  justify-self: flex-end;
 }
