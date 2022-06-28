@@ -9,16 +9,23 @@
 </head>
 <body>
     <main>
-        <h1>Awesome Books</h1>
-        <div id="book-list">
+        <section class="container">
+        <h1 class="pageTitle">All awesome books</h1>
+        <div id="book-list" class="book-table">
+            
         </div>
-        <form id=book-form>
-            <input type="text" placeholder="Book Title" id="title">
-            <br><br>
-            <input type="text" placeholder="Book Author" id="author">
-            <br><br>
-            <input type="submit" value="Add" id="submit">
-        </form>
+
+        <div class="formSection">
+            <h1>Add a new book</h1>
+            <form id=book-form>
+                <input type="text" placeholder="Title" id="title" size="40" class="bookname">
+                <br><br>
+                <input type="text" placeholder="Author" id="author" size="40" class="authorname">
+                <br><br>
+                <input type="submit" value="ADD" id="submit" class="submitbtn">
+            </form>
+       </div>
+    </section>
 
     </main>
     <script src="assets/jsclass.js"></script>
