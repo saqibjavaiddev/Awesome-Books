@@ -33,4 +33,4 @@ contact.addEventListener('click', fun3);
 const { DateTime } = luxon;
 const dt = DateTime.local();
 const timeTag = document.querySelector('span');
-timeTag.innerHTML = `${dt.toLocaleString(DateTime.DATETIME_MED)}`; 
+timeTag.innerHTML = `${dt.toLocaleString(DateTime.DATETIME_MED)}`;
