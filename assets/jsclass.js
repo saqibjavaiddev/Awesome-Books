@@ -19,6 +19,8 @@ class Book {
     add() {
       Book.books.push(this);
       localStorage.setItem('books', JSON.stringify(Book.books));
+      this.show();
+      window.location.reload();
     }
 
     remove() {
