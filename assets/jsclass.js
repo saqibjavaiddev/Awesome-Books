@@ -40,7 +40,7 @@ class Book {
       }
       Book.books.forEach((item, index) => {
         bookHtml += `
-          <div class="onebook">
+          <div class="book">
           <p class="book-info">"${item.title}" </p>
           <p class="book-info"> ${item.author}</p>
           <button type="button" class="remove-btn" id="${index}">Remove</button>
