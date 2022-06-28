@@ -2,6 +2,7 @@ const section1 = document.querySelector('.container');
 const section2 = document.querySelector('.formSection');
 const section3 = document.querySelector('.contact-page');
 const listsection = document.querySelector('.list');
+const homesection = document.querySelector('.home');
 const add = document.querySelector('.new');
 const contact = document.querySelector('.contact');
 
@@ -23,6 +24,7 @@ function fun3() {
   section3.style.display = 'flex';
 }
 
+homesection.addEventListener('click', fun1);
 listsection.addEventListener('click', fun1);
 add.addEventListener('click', fun2);
 contact.addEventListener('click', fun3);
