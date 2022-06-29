@@ -6,9 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome Books - Microverse Project</title>
     <link rel="stylesheet" href="assets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
 </head>
 <body>
     <main>
+        <section class="header">
+            <nav class="navbar">
+                <a href="#" class="home">Awesome Books</a>
+                <ul class="navbar-list">
+                    <li class="list"><a href="#">List </a></li>
+                    <li class="new"><a href="#">Add New</a></li>
+                    <li class="contact"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <div class="date">
+            <span id="date-time"></span>
+        </div>
         <section class="container">
         <h1 class="pageTitle">All awesome books</h1>
         <div id="book-list" class="book-table">
@@ -16,7 +30,7 @@
         </div>
 
         <hr class="separator"> 
-
+    </section>
         <div class="formSection">
             <h1>Add a new book</h1>
             <form id=book-form>
@@ -27,9 +41,30 @@
                 <input type="submit" value="ADD" id="submit" class="submitbtn">
             </form>
        </div>
-    </section>
+    
 
+    <section class="contact-page">
+
+        <h1>Contact Information</h1>
+
+        <div>
+            <p>Do you have any questions or you just want to say "Hello"?</p>
+            <p>You can reach out to us!</p>
+        </div>
+
+        <ul>
+            <li>- Our email: mail@saqibjavaid.com</li>
+            <li>- Our phone number : 0092300383714</li>
+            <li>- Our address : Streetname Alexibaer, 63000 City,Country.</li>
+        </ul>
+
+
+    </section>
     </main>
+    <footer>
+        <p>Copyright</p>
+    </footer>
     <script src="assets/jsclass.js"></script>
+    <script src="assets/mainscript.js"></script>
 </body>
 </html>
